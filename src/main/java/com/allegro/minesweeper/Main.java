@@ -1,4 +1,4 @@
-package com.allergo.minesweeper;
+package com.allegro.minesweeper;
 
 public class Main {
     public static void main(String[] args) {
