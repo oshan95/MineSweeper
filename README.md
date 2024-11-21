@@ -62,6 +62,7 @@ Before you begin, ensure you have the following installed:
 **The application uses the following dependencies, managed through Maven:**
    - Log4j2 (for logging)
    - JUnit (for testing)
+
 **Dependencies are defined in pom.xml. Maven automatically downloads them when you build the project.**
 
 Run the following command to ensure all dependencies are resolved:
