@@ -60,7 +60,7 @@ Before you begin, ensure you have the following installed:
 
 ## Project Structure
 
-The project follows the standard Maven directory structure:
+1. The project follows the standard Maven directory structure:
 
    ```bash
    MineSweeper/
@@ -82,7 +82,7 @@ The project follows the standard Maven directory structure:
    │   │       └── messages.properties
    │   └── test/                    # Test code
    │       └── java/
-   │           └── com/example/minesweeper/
+   │           └── com/allegro/minesweeper/
    │               ├── config/
    │               │   ├── MessageLoaderTest.java
    │               │   
@@ -91,3 +91,4 @@ The project follows the standard Maven directory structure:
    │               └── ...
    ├── pom.xml                      # Maven configuration
    └── README.md                    # Documentation
+
