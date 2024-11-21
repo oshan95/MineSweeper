@@ -47,3 +47,11 @@ Before you begin, ensure you have the following installed:
    ```bash
    mvn package
    //This creates a JAR file in the target directory, e.g., target/MineSweeper-1.0-SNAPSHOT.jar
+   
+---
+
+## Run the Application
+
+1. **Run the packaged JAR file:**
+   ```bash
+   java -jar target/MineSweeper-1.0-SNAPSHOT.jar
