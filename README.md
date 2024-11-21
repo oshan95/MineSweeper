@@ -65,11 +65,9 @@ Before you begin, ensure you have the following installed:
 
 **Dependencies are defined in pom.xml. Maven automatically downloads them when you build the project.**
 
-Run the following command to ensure all dependencies are resolved:
-
-bash
-Copy code
-mvn dependency:resolve
+   1. **Run the following command to ensure all dependencies are resolved:**
+      ```bash
+      mvn dependency:resolve
 
 ---
 
