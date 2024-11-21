@@ -8,7 +8,7 @@ public class MessageLoaderExceptionTest {
     private final static String INVALID_MESSAGE_PROPERTIES_FILE = "msg.properties";
 
     @Test
-    void testMissingLoadMessagePropertiesFile() {
+    public void testMissingLoadMessagePropertiesFile() {
         assertThrows(IllegalArgumentException.class, ()-> {
             MessageLoader.getInstance(INVALID_MESSAGE_PROPERTIES_FILE);
         });

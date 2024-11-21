@@ -18,29 +18,29 @@ public class MessageLoaderTest {
     private MessageLoader messageLoader;
 
     @BeforeEach
-    void setup() {
+    public void setup() {
         messageLoader = MessageLoader.getInstance(MESSAGE_PROPERTIES_FILE);
     }
 
     @Test
-    void testLoadMessagePropertiesFile() {
+    public void testLoadMessagePropertiesFile() {
         assertNotNull(messageLoader);
     }
 
     @Test
-    void testGetMessageForValidKey() {
+    public void testGetMessageForValidKey() {
         String message = messageLoader.getMessage(GAME_WON_VALID_KEY);
         assertEquals(MESSAGE_GAME_WON, message);
     }
 
     @Test
-    void testGetFormattedMessageForValidKey() {
+    public void testGetFormattedMessageForValidKey() {
         String message = messageLoader.getFormattedMessage(ADJACENT_MINES_VALID_KEY, 2 );
         assertEquals(MESSAGE_ADJACENT_MINES, message);
     }
 
     @Test
-    void testGetMessageForInvalidKey() {
+    public void testGetMessageForInvalidKey() {
         String message = messageLoader.getMessage(INVALID_KEY);
         assertEquals(MESSAGE_NOT_FOUND, message);
     }

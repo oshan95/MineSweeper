@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f02ca5d3-9c74-4875-8b00-4bba2cc32671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/controller/MineSweepController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/helper/CellHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/CellNeighborDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellNeighborDirectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/controller/impl/MineSweepControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/CellIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/controller/MineSweepControllerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/helper/CellHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellIndexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/GridTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/controller/MineSweepController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/controller/MineSweepController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/helper/CellHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/helper/CellHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/config/MessageLoaderExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/config/MessageLoaderExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/config/MessageLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/config/MessageLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellNeighborDirectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellNeighborDirectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/messages.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +70,38 @@
       <recent name="C:\repo\MineSweeper\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CellTest">
-    <configuration name="CellNeighborDirectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+      <command value="mvn test" />
+      <command value="mvn -Dtest=CellHelperTest test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GridTest">
+    <configuration name="All in MineSweeper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MineSweeper" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CellHelperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineSweeper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allegro.minesweeper.model.*" />
+          <option name="PATTERN" value="com.allegro.minesweeper.helper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.allegro.minesweeper.model" />
-      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.model.CellNeighborDirectionTest" />
+      <option name="PACKAGE_NAME" value="com.allegro.minesweeper.helper" />
+      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.helper.CellHelperTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineSweeper" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +110,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.allegro.minesweeper.model" />
-      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.model.CellTest" />
+      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.model.GridTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CellTest.testConstructCellAndSetAdjacentMines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridTest.testUncoverCell_SafeCell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineSweeper" />
       <extension name="coverage">
         <pattern>
@@ -98,40 +125,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.allegro.minesweeper.model" />
-      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.model.CellTest" />
-      <option name="METHOD_NAME" value="testConstructCellAndSetAdjacentMines" />
+      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.model.GridTest" />
+      <option name="METHOD_NAME" value="testUncoverCell_SafeCell" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CellTest.testConstructCellAndSetMine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MessageLoaderTest.testGetMessageForValidKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MineSweeper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allegro.minesweeper.model.*" />
+          <option name="PATTERN" value="com.allegro.minesweeper.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.allegro.minesweeper.model" />
-      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.model.CellTest" />
-      <option name="METHOD_NAME" value="testConstructCellAndSetMine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CellTest.testConstructCellAndSetUncovered" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MineSweeper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allegro.minesweeper.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.allegro.minesweeper.model" />
-      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.model.CellTest" />
-      <option name="METHOD_NAME" value="testConstructCellAndSetUncovered" />
+      <option name="PACKAGE_NAME" value="com.allegro.minesweeper.config" />
+      <option name="MAIN_CLASS_NAME" value="com.allegro.minesweeper.config.MessageLoaderTest" />
+      <option name="METHOD_NAME" value="testGetMessageForValidKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CellTest" />
-        <item itemvalue="JUnit.CellNeighborDirectionTest" />
-        <item itemvalue="JUnit.CellTest.testConstructCellAndSetUncovered" />
-        <item itemvalue="JUnit.CellTest.testConstructCellAndSetAdjacentMines" />
-        <item itemvalue="JUnit.CellTest.testConstructCellAndSetMine" />
+        <item itemvalue="JUnit.GridTest" />
+        <item itemvalue="JUnit.GridTest.testUncoverCell_SafeCell" />
+        <item itemvalue="JUnit.All in MineSweeper" />
+        <item itemvalue="JUnit.MessageLoaderTest.testGetMessageForValidKey" />
+        <item itemvalue="JUnit.CellHelperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,12 +180,26 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/controller/MineSweepControllerImplTest.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MineSweeper$CellTest_testConstructCellAndSetMine.ic" NAME="CellTest.testConstructCellAndSetMine Coverage Results" MODIFIED="1732043546067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.allegro.minesweeper.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MineSweeper$MessageLoaderTest_testLoadMessageForValidKey.ic" NAME="MessageLoaderTest.testLoadMessageForValidKey Coverage Results" MODIFIED="1732016020946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.allegro.minesweeper.config.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MineSweeper$CellIndexTest.ic" NAME="CellIndexTest Coverage Results" MODIFIED="1732131879854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.allegro.minesweeper.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MineSweeper$MessageLoaderTest_testGetFormattedMessageForValidKey.ic" NAME="MessageLoaderTest.testGetFormattedMessageForValidKey Coverage Results" MODIFIED="1732017216877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.allegro.minesweeper.config.*</FILTER>
@@ -184,6 +209,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/MineSweeper$MessageLoaderTest_testLoadMessagePropertiesFile.ic" NAME="MessageLoaderTest.testLoadMessagePropertiesFile Coverage Results" MODIFIED="1732015579399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.allegro.minesweeper.config.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MineSweeper$MineSweepControllerImplTest.ic" NAME="MineSweepControllerImplTest Coverage Results" MODIFIED="1732131922747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.allegro.minesweeper.controller.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MineSweeper$MessageLoaderTest.ic" NAME="MessageLoaderTest Coverage Results" MODIFIED="1732022672624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.allegro.minesweeper.config.*</FILTER>
@@ -203,11 +231,26 @@
     <SUITE FILE_PATH="coverage/MineSweeper$MessageLoaderExceptionTest_testMissingLoadMessagePropertiesFile.ic" NAME="MessageLoaderExceptionTest.testMissingLoadMessagePropertiesFile Coverage Results" MODIFIED="1732018876347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.allegro.minesweeper.config.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/MineSweeper$CellHelperTest.ic" NAME="CellHelperTest Coverage Results" MODIFIED="1732133748904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.allegro.minesweeper.helper.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MineSweeper$MineSweepControllerTest_testStartGame_validInput.ic" NAME="MineSweepControllerImplTest.testStartGame_validInput Coverage Results" MODIFIED="1732131471608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.allegro.minesweeper.Controller.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/MineSweeper$MessageLoaderTest_testMissingLoadMessagePropertiesFile.ic" NAME="MessageLoaderTest.testMissingLoadMessagePropertiesFile Coverage Results" MODIFIED="1732018655721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.allegro.minesweeper.config.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/MineSweeper$MineSweepControllerTest_testStartGame_invalidGridSizeExceedsRetry.ic" NAME="MineSweepControllerImplTest.testStartGame_invalidGridSizeExceedsRetry Coverage Results" MODIFIED="1732131691254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.allegro.minesweeper.Controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MineSweeper$GridTest.ic" NAME="GridTest Coverage Results" MODIFIED="1732153902481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.allegro.minesweeper.model.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/MineSweeper$MessageLoaderExceptionTest.ic" NAME="MessageLoaderExceptionTest Coverage Results" MODIFIED="1732022091057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.allegro.minesweeper.config.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MineSweeper$MineSweepControllerTest_testRevealSquareSteps_validInputs.ic" NAME="MineSweepControllerTest.testRevealSquareSteps_validInputs Coverage Results" MODIFIED="1732131393585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.allegro.minesweeper.Controller.*</FILTER>
     </SUITE>
   </component>
 </project>

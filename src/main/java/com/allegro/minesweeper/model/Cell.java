@@ -4,15 +4,13 @@ public class Cell {
     private boolean isMine;
     private boolean isUncovered;
     private int adjacentMines;
-    private int cellRowIndex;
-    private int cellColumnIndex;
+    private CellIndex cellIndex;
 
     public Cell(boolean isMine) {
         this.isMine = isMine;
         this.isUncovered = false;
         this.adjacentMines = 0;
-        this.cellRowIndex = 0;
-        this.cellColumnIndex = 0;
+        this.cellIndex = new CellIndex(0,0);
     }
 
     public boolean isMine() {
@@ -39,19 +37,11 @@ public class Cell {
         this.adjacentMines = adjacentMines;
     }
 
-    public int getCellRowIndex() {
-       return this.cellRowIndex;
+    public CellIndex getCellIndex() {
+        return this.cellIndex;
     }
 
-    public void setCellRowIndex(int rowIndex) {
-        this.cellRowIndex = rowIndex;
-    }
-
-    public int getCellColumnIndex() {
-        return this.cellColumnIndex;
-    }
-
-    public void setCellColumnIndex(int columnIndex) {
-        this.cellColumnIndex = columnIndex;
+    public void setCellIndex(CellIndex cellIndex) {
+        this.cellIndex = cellIndex;
     }
 }

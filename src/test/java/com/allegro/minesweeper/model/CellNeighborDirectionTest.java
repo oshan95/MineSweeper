@@ -9,12 +9,12 @@ public class CellNeighborDirectionTest {
     private static final int ENUM_LENGTH = 8;
 
     @Test
-    void testEnumLength() {
+    public void testEnumLength() {
         assertEquals(ENUM_LENGTH, CellNeighborDirection.values().length);
     }
 
     @Test
-    void testEnumValues() {
+    public void testEnumValues() {
         assertNotNull(CellNeighborDirection.valueOf("TOP_LEFT"));
         assertNotNull(CellNeighborDirection.valueOf("TOP_CENTER"));
         assertNotNull(CellNeighborDirection.valueOf("TOP_RIGHT"));
@@ -26,7 +26,7 @@ public class CellNeighborDirectionTest {
     }
 
     @Test
-    void testTopRowOffsets() {
+    public void testTopRowOffsets() {
         assertEquals(-1, CellNeighborDirection.TOP_LEFT.getRowOffset());
         assertEquals(-1, CellNeighborDirection.TOP_LEFT.getColOffset());
 
@@ -38,7 +38,7 @@ public class CellNeighborDirectionTest {
     }
 
     @Test
-    void testCenterRowOffsets() {
+    public void testCenterRowOffsets() {
         assertEquals(0, CellNeighborDirection.CENTER_LEFT.getRowOffset());
         assertEquals(-1, CellNeighborDirection.CENTER_LEFT.getColOffset());
 
@@ -47,7 +47,7 @@ public class CellNeighborDirectionTest {
     }
 
     @Test
-    void testBottomRowOffsets() {
+    public void testBottomRowOffsets() {
         assertEquals(1, CellNeighborDirection.BOTTOM_LEFT.getRowOffset());
         assertEquals(-1, CellNeighborDirection.BOTTOM_LEFT.getColOffset());
 
