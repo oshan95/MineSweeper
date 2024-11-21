@@ -34,13 +34,15 @@ Before you begin, ensure you have the following installed:
 ## Installation and Setup
 
 1. **Build the Project**
-   Use Maven to build and test the project:
 
-   Compile the source code 
-   ```bash
+Use Maven to build and test the project:
+
+   **Compile the source code**
+    ```bash 
    mvn compile
    
-   Run tests
+   
+   **Run tests**
    ```bash
    mvn test
    
