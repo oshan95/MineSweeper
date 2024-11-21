@@ -71,6 +71,26 @@ Before you begin, ensure you have the following installed:
 
 ---
 
+## How to Play
+
+1. Launch the game. 
+2. Enter the grid size and the number of mines to place. 
+3. Reveal squares by entering coordinates (e.g., A1, B2). 
+4. Win the game by uncovering all non-mine squares. 
+5. If you uncover a mine, the game is over.
+
+---
+
+## Troubleshooting
+
+1. **Maven Build Issues**
+   If Maven fails to resolve dependencies, run:
+   ```bash
+   mvn dependency:purge-local-repository
+   mvn clean install
+
+---
+
 ## Project Structure
 
 1. The project follows the standard Maven directory structure:
