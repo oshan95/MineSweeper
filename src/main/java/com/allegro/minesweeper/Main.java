@@ -3,9 +3,6 @@ package com.allegro.minesweeper;
 import com.allegro.minesweeper.config.MessageLoader;
 import com.allegro.minesweeper.controller.MineSweepController;
 import com.allegro.minesweeper.controller.impl.MineSweepControllerImpl;
-import com.allegro.minesweeper.model.Cell;
-import com.allegro.minesweeper.model.CellIndex;
-import com.allegro.minesweeper.model.Grid;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
