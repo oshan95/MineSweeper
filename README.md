@@ -55,3 +55,31 @@ Before you begin, ensure you have the following installed:
 1. **Run the packaged JAR file:**
    ```bash
    java -jar target/MineSweeper-1.0-SNAPSHOT.jar
+
+---
+
+## Project Structure
+
+The project follows the standard Maven directory structure:
+
+   ```bash
+   MineSweeper/
+   ├── src/
+   │   ├── main/
+   │   │   ├── java/                # Source code
+   │   │   │   └── com/example/minesweeper/
+   │   │   │       ├── Main.java
+   │   │   │       ├── Game.java
+   │   │   │       ├── Grid.java
+   │   │   │       ├── Cell.java
+   │   │   │       └── ...
+   │   │   └── resources/           # Resources (e.g., messages, configurations)
+   │   │       └── log4j2.xml
+   │   └── test/                    # Test code
+   │       └── java/
+   │           └── com/example/minesweeper/
+   │               ├── GridTest.java
+   │               ├── CellTest.java
+   │               └── ...
+   ├── pom.xml                      # Maven configuration
+   └── README.md                    # Documentation
