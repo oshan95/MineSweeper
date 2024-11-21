@@ -67,19 +67,27 @@ The project follows the standard Maven directory structure:
    ├── src/
    │   ├── main/
    │   │   ├── java/                # Source code
-   │   │   │   └── com/example/minesweeper/
-   │   │   │       ├── Main.java
-   │   │   │       ├── Game.java
-   │   │   │       ├── Grid.java
-   │   │   │       ├── Cell.java
-   │   │   │       └── ...
+   │   │   │   └── com/allegro/minesweeper/
+   │   │   │       ├── config/
+   │   │   │       │   ├── MessageLoader.java
+   │   │   │       │   
+   │   │   │       ├── controller/
+   │   │   │       │   ├── impl/
+   │   │   │       │       ├── MineSweepControllerImpl.java
+   │   │   │       │   ├── MineSweepController.java
+   │   │   │       ├── ...
+   │   │   │       └── Main.java
    │   │   └── resources/           # Resources (e.g., messages, configurations)
    │   │       └── log4j2.xml
+   │   │       └── messages.properties
    │   └── test/                    # Test code
    │       └── java/
    │           └── com/example/minesweeper/
-   │               ├── GridTest.java
-   │               ├── CellTest.java
+   │               ├── config/
+   │               │   ├── MessageLoaderTest.java
+   │               │   
+   │               ├── controller/
+   │               │   ├── MineSweepControllerImplTest.java
    │               └── ...
    ├── pom.xml                      # Maven configuration
    └── README.md                    # Documentation
