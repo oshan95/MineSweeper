@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f02ca5d3-9c74-4875-8b00-4bba2cc32671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/controller/impl/MineSweepControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/CellIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/controller/MineSweepControllerImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/helper/CellHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellIndexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/GridTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/controller/MineSweepController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/controller/MineSweepController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/helper/CellHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/helper/CellHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allegro/minesweeper/model/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/config/MessageLoaderExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/config/MessageLoaderExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/config/MessageLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/config/MessageLoaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellNeighborDirectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellNeighborDirectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/allegro/minesweeper/model/CellTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
